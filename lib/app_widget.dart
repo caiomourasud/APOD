@@ -17,6 +17,11 @@ class _AppWidgetState extends State<AppWidget> {
       home: const AppRoot(),
       theme: ThemeData(
         useMaterial3: true,
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.white,
+          surfaceTintColor: Colors.white,
+        ),
       ),
     );
   }
